@@ -1,19 +1,30 @@
 .backgroundColor{
     display: block;
-    margin-top: 0px;
     background-color: darkseagreen;
 }
 
-.divMeasurements{
-    height: 150%;
-    width: auto;
+.textDiv{
+    position: relative;
+    z-index: 10;
 }
 
-h1 {
+h1{
     text-align: center;
     margin-top: 10%;
     font-family: "Calibri";
     font-size: 900%;
-    color: lightseagreen;
+    color: black;
 }
+
+.pictureBackground{
+    display: block;
+    position: absolute;
+    margin-top: 0px;
+    opacity: 50%;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+
 
