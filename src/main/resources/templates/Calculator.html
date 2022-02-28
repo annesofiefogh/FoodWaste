@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Omregning fra 2- talssystemet til 10- talssystemet</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="http://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+            $("#bin").focus();
+
+            $("#bin").keyup(function () {
+                var i;
+                var result = 0;
+                var num = $("#bin").val();
+                var result02 = 0;
+                var result03 = 0;
+                var kgCarrots = 1.6306;
+                var co2Saver = 0.3150;
+                var houseWarming = 0.0395;
+
+                for (i = 0; i < num.length; ++i) {
+                    // omregn fra bin til dec
+                    result = num * kgCarrots;
+                    result02 = num * co2Saver;
+                    result03 = num * houseWarming;
+                }
+
+                $("#Resultat").html(result);
+                $("#test").html(result02);
+                $("#test02").html(result03);
+            });
+
+            $("#bin").keydown(function (e) {
+                // Tillad: backspace, delete, tab, escape, enter
+                if ($.inArray(e.keyCode, [46, 8, 9, 27, 13, 110]) !== -1 ||
+                    // Tillad: Ctrl+A, Command+A
+                    (e.keyCode === 65 && (e.ctrlKey === true || e.metaKey === true)) ||
+                    // Tillad: home, end, left, right, down, up
+                    (e.keyCode >= 35 && e.keyCode <= 40)) {
+                    // Lad det ske, og lad være med at gøre noget
+                    return;
+                }
+
+                // Sørg for det er et tal og stop tastetrykket default handling
+            });
+        });
+    </script>
+
+    <style>
+        .resultater {
+            display: flex;
+            flex-direction: column;
+            margin-left: 2%;
+        }
+
+        .input {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .textVedResultater {
+            display: flex;
+            flex-direction: column;
+            margin-left: 44%;
+
+        }
+        .heleResultatet{
+            display: flex;
+            margin-top: 25px;
+
+        }
+    </style>
+</head>
+<body>
+<h1 style="display: flex; justify-content: center">Her kan du se betydningen af dit madaffald</h1><br/>
+<div >
+    <div class="input">
+        <h2>Indtast vægt</h2>
+        <div><input type="text" id="bin" title="Indtast 0 eller 1 her"/></div>
+    </div>
+    <div class="heleResultatet">
+        <div class="textVedResultater">
+            <p>Kg gulerødder: </p>
+            <p>Kg co2: </p>
+            <p>husstand: </p>
+        </div>
+        <div class="resultater">
+
+            <p id="Resultat">0</p>
+            <p id="test">0</p>
+            <p id="test02">0</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
