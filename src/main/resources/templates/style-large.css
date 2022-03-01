@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.pictureBackground{
+    display: block;
+    position: absolute;
+    opacity: 60%;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
