@@ -2,38 +2,38 @@
 <html>
 <head>
     <meta charset="utf-8"/>
-    <title>Omregning fra kg madaffald</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="http://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Madspilds omregner</title>
+    <script src="test.js"></script>
     <script>
         $(function () {
             $("#bin").focus();
 
             $("#bin").keyup(function () {
-                var i;
-                var result = 0;
-                var num = $("#bin").val();
-                var result02 = 0;
-                var result03 = 0;
-                var kgCarrots = 1.6306;
-                var co2Saver = 0.3150;
-                var houseWarming = 0.0395;
+                let num = $("#bin").val();
+                let resultCarrots;
+                let resultCO2;
+                let resultWarming;
+                const kgCarrots = 1.6306;
+                const co2Saver = 0.3150;
+                const houseWarming = 0.0395;
 
-                result = num * kgCarrots;
-                result02 = num * co2Saver;
-                result03 = num * houseWarming;
+                resultCarrots = num * kgCarrots;
+                resultCO2 = num * co2Saver;
+                resultWarming = num * houseWarming;
 
 
-                $("#Resultat").html(result);
-                $("#test").html(result02);
-                $("#test02").html(result03);
+                $("#carrots").html(resultCarrots);
+                $("#kgco2").html(resultCO2);
+                $("#husstand").html(resultWarming);
             });
         });
     </script>
 
     <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
         .resultater {
             display: flex;
             flex-direction: column;
@@ -49,39 +49,67 @@
         .textVedResultater {
             display: flex;
             flex-direction: column;
-            margin-left: 44%;
+            margin-left: 36%;
 
         }
 
         .heleResultatet {
             display: flex;
-            margin-top: 25px;
+            margin-top: 25px;}
 
+        .pictureBackground {;
+            display: block;
+            position: relative;
+            opacity: 60%;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
         }
+
+        #front{
+            position: absolute;
+            top: 10%;
+            display: flex;
+            flex-direction: column;
+            margin-left: 35%;
+        }
+
     </style>
 </head>
 <body>
 
-<h1 style="display: flex; justify-content: center">Her kan du se betydningen af dit madaffald</h1><br/>
 <div>
-    <div class="input">
-        <h2>Indtast vægt</h2>
-        <div><input type="text" id="bin" title="Indtast 0 eller 1 her" /></div>
+    <div class="pictureBackground">
+        <img class="pictureBackground" src="foodwaste.jpg">
     </div>
-    <div class="heleResultatet">
-        <div class="textVedResultater">
-            <p>Kg gulerødder: </p>
-            <p>Kg co2: </p>
-            <p>husstand: </p>
+
+    <div id = "front">
+
+        <h1 style="text-align: center;">Her kan du se betydningen af dit madaffald</h1><br/>
+        <div class="input">
+            <h2>Indtast vægt i Kg</h2>
+            <div><input type="text" id="bin" title="Indtast vægt her her"/></div>
         </div>
-        <div class="resultater">
+        <div class="heleResultatet">
+            <div class="textVedResultater">
+                <p>Kg gulerødder: </p>
+                <p>Kg co2: </p>
+                <p>Husstand: </p>
+            </div>
+            <div class="resultater">
 
 
-            <p id="Resultat">0</p>
-            <p id="test">0</p>
-            <p id="test02">0</p>
+                <p id="carrots">0</p>
+                <p id="kgco2">0</p>
+                <p id="husstand">0</p>
 
+            </div>
         </div>
+
+        <form STYLE="text-align: center; margin-top: 20px">
+            <input type="button" value="Tilbage til forrige side!" onclick="history.back()">
+        </form>
+
     </div>
 </div>
 </body>
