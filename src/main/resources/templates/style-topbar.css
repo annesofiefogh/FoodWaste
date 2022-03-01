@@ -1,0 +1,33 @@
+/* Add a black background color to the top navigation */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    padding-left: 24%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: Calibri;
+    font-size: 17px;
+
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.navbar a.active {
+    background-color: forestgreen;
+    color: white;
+}
