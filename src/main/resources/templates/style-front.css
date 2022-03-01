@@ -16,7 +16,7 @@ body{
 h1{
     text-align: center;
     margin-top: 5%;
-    font-family: "Calibri";
+    font-family: "Calibri",Arial;
     font-size: 950%;
     color: darkgreen;
 }
@@ -50,7 +50,7 @@ a:hover{color: darkgreen;}
 h3{
     text-align: center;
     margin-top: 0%;
-    font-family: "Calibri";
+    font-family: "Calibri",Arial;
     font-size: 260%;
     z-index: 10;
 }

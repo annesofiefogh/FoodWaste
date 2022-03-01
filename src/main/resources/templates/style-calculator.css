@@ -42,6 +42,6 @@ body{
     display: flex;
     flex-direction: column;
     margin-left: 35%;
-    font-family: "Calibri";
+    font-family: "Calibri",Arial;
 
 }
