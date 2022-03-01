@@ -6,7 +6,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    font-family: Calibri;
+    font-family: Calibri,Arial;
     font-size: 17px;
 
 }
@@ -37,7 +37,7 @@
     background-color: #333;
     color: white;
     border: none;
-    font-family: Calibri;
+    font-family: Calibri,Arial;
     font-size: 17px;
 }
 
