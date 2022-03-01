@@ -55,24 +55,24 @@ body{
 
 h4{
     text-align: center;
-    font-family: italic ;
+    font-family: "calibri", Arial ;
 }
 
 h3{
     text-align: center;
     margin-top: -1%;
-    font-family: "Calibri";
+    font-family: "Calibri",Arial;
     font-size: 260%;
     z-index: 10;
 
 }
 h2{
-    font-family: "Calibri";
+    font-family: "Calibri",Arial;
 }
 h1{
     text-align: center;
     margin-top: 3%;
-    font-family: "Calibri";
+    font-family: "Calibri",Arial;
     font-size: 950%;
     color: darkgreen;
 }
