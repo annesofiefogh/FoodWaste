@@ -5,7 +5,7 @@ body{
 
 .pictureBackground{;
     display: block;
-    position: absolute;
+    position: fixed;
     opacity: 60%;
     height: 100%;
     width: 100%;
@@ -40,17 +40,6 @@ h1{
     z-index: 10;
 }
 
-.listOfButtons {
-    top: 80%;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    z-index: 10;
-
-
-}
-
 h3{
     text-align: center;
     margin-top: 0%;
@@ -59,8 +48,16 @@ h3{
     z-index: 10;
 }
 
+.pointer {
+    cursor: pointer;
+}
+
 a{color: darkgreen;}
-a:hover{color: black;}
+a:hover{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 5px 0 rgba(0,0,0,0.12);
+    color: black;
+}
+
 
 
 
