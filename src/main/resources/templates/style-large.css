@@ -3,3 +3,16 @@ body{
     padding: 0;
     background-color: whitesmoke;
 }
+#mainContent{
+    display: flex;
+    margin-left: 25%;
+    padding-top: 100px;
+    font-family: "Calibri";
+    flex-direction: column;
+    padding-right: 20%;
+    font-size: 200%;
+}
+#Text{
+
+
+}
