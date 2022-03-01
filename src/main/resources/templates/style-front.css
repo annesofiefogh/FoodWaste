@@ -40,6 +40,17 @@ h1{
     z-index: 10;
 }
 
+.listOfButtons {
+    top: 80%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 10;
+
+
+}
+
 h3{
     text-align: center;
     margin-top: 0%;
