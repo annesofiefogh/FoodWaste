@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.resultater {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textVedResultater {
+    display: flex;
+    flex-direction: column;
+    margin-left: 36%;
+
+}
+
+.heleResultatet {
+    display: flex;
+    margin-top: 25px;
+
+}
+
+.pictureBackground {;
+    display: block;
+    position: absolute;
+    opacity: 60%;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#front{
+    position: absolute;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 35%;
+    font-family: "Calibri";
+
+}
