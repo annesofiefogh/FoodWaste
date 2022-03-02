@@ -24,23 +24,7 @@ body{
     width: auto;
 }
 
-.button{
-    display: flex;
-    height: 5%;
-    width: 25%;
-    background-color: darkgreen;
-    border-color: darkgreen;
-    border-width: 0.1em;
-    border-style: solid;
-    z-index: 10;
-   justify-content: center;
-}
-.link{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 
-}
 
 a{color: white;}
 
