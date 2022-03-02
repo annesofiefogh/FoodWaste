@@ -38,7 +38,7 @@ body{
     background-color: darkgreen;
     border-width: 0.3em;
     border-style: solid;
-    top: 80%;
+    top: 130%;
     z-index: 10;
 }
 
@@ -66,7 +66,7 @@ body{
 }
 
 h4{
-    text-align: center;
+    text-align: left;
     font-family: "calibri", Arial ;
 }
 
@@ -78,13 +78,11 @@ h3{
     font-size: 260%;
 }
 
-h2{font-family: "Calibri",Arial;}
-
 h1{
     text-align: center;
     margin-top: 3%;
     font-family: "Calibri",Arial;
-    font-size: 950%;
+    font-size: 750%;
     color: darkgreen;
 }
 
