@@ -13,3 +13,34 @@ body{
     padding-right: 20%;
     font-size: 200%;
 }
+
+.divAdvice{
+    display: block;
+    border-style: solid;
+    border-width: 3px;
+    border-color: darkgreen;
+    height: auto;
+    width: auto;
+}
+
+.button{
+    display: block;
+    margin-left: 45%;
+    margin-right: 45%;
+    position: absolute;
+    height: 5%;
+    width: 15%;
+    background-color: darkgreen;
+    border-color: darkgreen;
+    border-width: 0.1em;
+    border-style: solid;
+    top: 95%;
+    z-index: 10;
+    text-align: center;
+}
+
+a{color: white;}
+
+a:hover{color: darkgreen;}
+
+.button:hover{background-color: white;}

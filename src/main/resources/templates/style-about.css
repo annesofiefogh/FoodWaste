@@ -30,7 +30,6 @@ body{
 .btn-group{
     display: flex;
     position: absolute;
-
     justify-content: center;
     align-content: center;
     height: 7%;
@@ -38,19 +37,20 @@ body{
     background-color: darkgreen;
     border-width: 0.3em;
     border-style: solid;
-
     top: 80%;
     z-index: 10;
 }
+
 #lilleFirma{
     width: 25%;
     margin-left: 70%;
 }
+
 #stortFirma{
     width: 25%;
     margin-left: 38%;
-
 }
+
 #privatPerson{
     width: 25%;
     margin-left: 5%;
@@ -67,11 +67,10 @@ h3{
     margin-bottom: 0%;
     font-family: "Calibri",Arial;
     font-size: 260%;
+}
 
-}
-h2{
-    font-family: "Calibri",Arial;
-}
+h2{font-family: "Calibri",Arial;}
+
 h1{
     text-align: center;
     margin-top: 3%;
