@@ -66,7 +66,7 @@
     text-decoration: none;
     display: block;
     position: relative;
-    z-index: 99;
+    z-index: 99 ;
 }
 
 /* Change color of dropdown links on hover */
