@@ -38,7 +38,7 @@ body{
     background-color: darkgreen;
     border-width: 0.3em;
     border-style: solid;
-    top: 130%;
+    top: 80%;
     z-index: 10;
 }
 
@@ -52,12 +52,12 @@ body{
 
 #lilleFirma{
     width: 25%;
-    margin-left: 70%;
+    margin-left: 38%;
 }
 
 #stortFirma{
     width: 25%;
-    margin-left: 38%;
+    margin-left: 70%;
 }
 
 #privatPerson{
