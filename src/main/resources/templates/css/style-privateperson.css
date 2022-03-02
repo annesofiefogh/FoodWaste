@@ -1,15 +1,26 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: whitesmoke;
+    background-color: #f5f4f0;
 }
 
-.pictureBackground {;
+.pictureBackground {
     display: block;
     position: fixed;
     opacity: 60%;
     height: 135%;
     width: 100%;
+    z-index: -1;
+}
+
+.images {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7%;
+    margin-right: 9%;
+    margin-top: 5%;
+
     z-index: -1;
 }
 

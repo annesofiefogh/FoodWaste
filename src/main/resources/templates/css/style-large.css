@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: whitesmoke;
+    background-color: #f5f4f0;
 }
 #mainContent{
     display: flex;
@@ -20,6 +20,17 @@ body{
     border-color: darkgreen;
     height: auto;
     width: auto;
+}
+
+.images {
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    margin-left: 7%;
+    margin-right: 19em;
+    margin-top: 15%;
+
+    z-index: -1;
 }
 
 a{color: white;}
