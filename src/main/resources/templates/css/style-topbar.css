@@ -66,6 +66,8 @@
     display: block;
     position: relative;
     z-index: 99 ;
+    min-width: 83%;
+    text-align: left;
 }
 
 /* Change color of dropdown links on hover */

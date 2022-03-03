@@ -52,12 +52,12 @@ body{
 
 #lilleFirma{
     width: 25%;
-    margin-left: 70%;
+    margin-left: 38%;
 }
 
 #stortFirma{
     width: 25%;
-    margin-left: 38%;
+    margin-left: 70%;
 }
 
 #privatPerson{
@@ -66,7 +66,7 @@ body{
 }
 
 h4{
-    text-align: center;
+    text-align: left;
     font-family: "calibri", Arial ;
 }
 
@@ -78,13 +78,11 @@ h3{
     font-size: 260%;
 }
 
-h2{font-family: "Calibri",Arial;}
-
 h1{
     text-align: center;
     margin-top: 3%;
     font-family: "Calibri",Arial;
-    font-size: 950%;
+    font-size: 750%;
     color: darkgreen;
 }
 
