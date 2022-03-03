@@ -1,8 +1,9 @@
-body{
+body {
     margin: 0;
     padding: 0;
     background-color: #f5f4f0;
 }
+
 .resultater {
     display: flex;
     flex-direction: column;
@@ -37,7 +38,7 @@ body{
     z-index: -1;
 }
 
-#front{
+#front {
     position: absolute;
     top: 10%;
     display: flex;
@@ -45,5 +46,21 @@ body{
     margin-left: 31.5%;
     font-family: "Calibri",Arial;
     z-index: -1;
-
 }
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: darkgreen;
+    border-color: darkgreen;
+    border-width: 0.1em;
+    border-style: solid;
+    width: 130%;
+}
+
+a{color: white; text-decoration: none;}
+
+a:hover{color: darkgreen;}
+
+.button:hover{background-color: white;}
