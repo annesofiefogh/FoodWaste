@@ -46,6 +46,8 @@ body{
     position: absolute;
     display: flex;
     justify-content: end;
+    margin-right: 10%;
+    margin-top: 4%;
 
     z-index: -1;
 }
