@@ -1,15 +1,15 @@
-body{
+body {
     margin: 0;
     padding: 0;
     background-color: #f5f4f0;
 }
 
-.backgroundColor{
+.backgroundColor {
     margin: 0;
     padding: 0;
 }
 
-.textDiv{
+.textDiv {
     position: absolute;
     top: 10%;
     z-index: -1;
@@ -17,20 +17,20 @@ body{
     margin-top: -4%;
 }
 
-.infoText{
+.infoText {
     position: absolute;
     top: 32%;
     left: 5%;
     z-index: 10;
 }
 
-.citatText{
+.citatText {
     position: absolute;
     top: 27%;
     left: 5%;
 }
 
-.btn-group{
+.btn-group {
     display: flex;
     position: absolute;
     justify-content: center;
@@ -54,27 +54,27 @@ body{
     z-index: -1;
 }
 
-#lilleFirma{
+#lilleFirma {
     width: 25%;
     margin-left: 38%;
 }
 
-#stortFirma{
+#stortFirma {
     width: 25%;
     margin-left: 70%;
 }
 
-#privatPerson{
+#privatPerson {
     width: 25%;
     margin-left: 5%;
 }
 
-h4{
+h4 {
     text-align: left;
     font-family: "calibri", Arial ;
 }
 
-h3{
+h3 {
     text-align: center;
     margin-top: 1%;
     margin-bottom: 0%;
@@ -82,7 +82,7 @@ h3{
     font-size: 260%;
 }
 
-h1{
+h1 {
     text-align: center;
     margin-top: 3%;
     font-family: "Calibri",Arial;
