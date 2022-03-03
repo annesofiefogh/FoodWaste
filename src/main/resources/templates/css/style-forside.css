@@ -28,6 +28,12 @@ body {
     left: 5%;
 }
 
+p {
+    font-family: Calibri, Arial;
+    font-size: 200%;
+    line-height: 20px;
+}
+
 .btn-group {
     display: flex;
     position: absolute;
@@ -38,7 +44,7 @@ body {
     background-color: darkgreen;
     border-width: 0.3em;
     border-style: solid;
-    top: 80%;
+    top: 88%;
     z-index: 10;
 }
 
@@ -48,7 +54,6 @@ body {
     justify-content: end;
     margin-right: 10%;
     margin-top: 4%;
-
     z-index: -1;
 }
 
@@ -69,7 +74,8 @@ body {
 
 h4 {
     text-align: left;
-    font-family: "calibri", Arial ;
+    font-family: "Calibri", Arial;
+    font-size: 200%;
 }
 
 h3 {
